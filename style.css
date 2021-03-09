@@ -19,6 +19,8 @@ border-radius: 5px;
 #creditcards{
 
 background-color: lightslategray;
+height: auto;
+display: flex;
 
 border-radius: 5px;
 
@@ -26,10 +28,13 @@ border-radius: 5px;
 }
 
 footer{
-
+display: flex;
+justify-content: flex-end;
     background-color: lightgrey;
     padding: 12px;
     margin: 10px;
+gap: 10px;
     
     
 }
+
